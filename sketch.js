@@ -30,10 +30,10 @@ function setup() {
   // Try to draw a paw image that follows the mouse
   
 
-  // Try to move one paw with the arrow or wasd keys
+  // Try to move one paw with the arrow or wasd keys. Hint you need variables...
 
 
-  //Try to load your own image. Note that you generally what 
+  //Try to load your own image. Note that you generally want 
   // somewhat small images. Our canvas size is limited.
 
 

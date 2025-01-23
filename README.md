@@ -6,7 +6,7 @@
 
 Now Open VS Code on your computer.
 
-* Clone https://github.com/bradleecrockett/P5BasicImages.gitLinks to an external site. 
+* Clone https://github.com/bradleecrockett/P5BasicImages.git 
 * Follow the comments in `sketch.js` to create additional TigerPaws
 * Finally, try adding a second new image. Remember that your images must be saved in the project's folder with all the other files.
 * What can you create? 
