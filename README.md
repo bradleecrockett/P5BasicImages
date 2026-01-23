@@ -10,6 +10,9 @@ function preload() {
 }
 
 // basic usuage to display an image.
+image(img, x, y);
+
+// basic usuage to display an image.
 image(img, x, y, [width], [height])
 
 // or more detailed usage
@@ -38,13 +41,19 @@ image(img, dx, dy, dWidth, dHeight, sx, sy, [sWidth], [sHeight], [fit], [xAlign]
 
 * Alternatively, you can watch a short video about working with P5JS Images. https://youtu.be/friYx8xdLOELinks
 
+## For you TODO
+
 Now Open VS Code on your computer.
 
 * Clone https://github.com/bradleecrockett/P5BasicImages.git 
 * Follow the comments in `sketch.js` to create additional TigerPaws
-* Finally, try adding a second new image. Remember that your images must be saved in the project's folder with all the other files.
+* Add a second new image. Remember that your images must be saved in the project's folder with all the other files.
+    * First download an image and upload it to your project folder.
+    * Next, load the image in `preload()`
+    * Finally, display the image in `draw()`
 * What can you create? 
 * You need to have at least 2 different images and at least one should be animated (move).
+* Stretch Goal: Create a simple animation using a sprite sheet.
 * With some clever math, we can create a walking or attack animation by displaying different sections of the spritesheet.
 
 Character Sprite sheet Credit: https://opengameart.org/content/a-platformer-in-the-forest 
