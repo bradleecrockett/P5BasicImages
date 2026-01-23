@@ -17,7 +17,9 @@ function setup() {
   createCanvas(600, 400);
 
   background(50);
+}
 
+function draw() {
   // Draw the image at (0, 0)
   image(img, 0, 0);
 
