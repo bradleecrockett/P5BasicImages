@@ -8,13 +8,16 @@
 
 let img;
 
-// Load the image.
-function preload() {
-  img = loadImage('TigerPaw.png');
-}
+// Load the image. This is the old way...
+// function preload() {
+//   img = loadImage('TigerPaw.png');
+// }
 
-function setup() {
+async function setup() {
   createCanvas(600, 400);
+
+  // waits for asset to load
+  img = await loadImage("cat.jpg");  // The await is why we need the async
 
   background(50);
 }

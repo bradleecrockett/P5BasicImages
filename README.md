@@ -3,10 +3,13 @@
 * First, we are going to read the P5 Images Documentation: https://p5js.org/reference/p5/image/ 
 
 ```javascript
-//First load the image into a variable using preload
 let img;
-function preload() {
-  img = loadImage('imageFilePath.png');
+
+async function setup() {
+  createCanvas(600, 400);
+
+  // waits for asset to load
+  img = await loadImage("cat.jpg");  // The await is why we need the async
 }
 
 // basic usuage to display an image.
